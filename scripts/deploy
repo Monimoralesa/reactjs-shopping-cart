@@ -1,1 +1,3 @@
-dd
+sed -i -e "s/reactjs-shopping-cart//g" /var/www/html/index.html 
+SERVER=$(hostname -f)
+sed -i -e "s/HOSTNAME/$SERVER/g" /var/www/html/index.html
