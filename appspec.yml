@@ -12,6 +12,8 @@ files:
     destination: /var/www/html/  
   - source: build/static/js/main.42ee9d36.js
     destination: /var/www/html/static/js/    
+  - source: build/static/CSS/main.6d9df600.css
+    destination: /var/www/html/static/css/   
 hooks:
   BeforeInstall:
     - location: scripts/install
