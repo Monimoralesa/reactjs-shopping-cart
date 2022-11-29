@@ -3,6 +3,6 @@
 #aws s3 cp s3://shopping-cart-jmonicam-cr3/index.html .
 pwd
 ls
-sed -i -e "s/reactjs-shopping-cart//g" /home/ec2-user/reactjs-shopping-cart/build/index.html 
+sed -i -e "s/reactjs-shopping-cart//g" /var/www/html/index.html 
 SERVER=$(hostname -f)
-sed -i -e "s/HOSTNAME/$SERVER/g" /home/ec2-user/reactjs-shopping-cart/build/index.html
+sed -i -e "s/HOSTNAME/$SERVER/g" /var/www/html/index.html
