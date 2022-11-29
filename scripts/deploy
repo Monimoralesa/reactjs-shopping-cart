@@ -3,3 +3,4 @@ SERVER=$(hostname -f)
 sed -i -e "s/HOSTNAME/$SERVER/g" /var/www/html/index.html
 mkdir -p /var/www/html/static/js/
 mkdir -p /var/www/html/static/css/
+mkdir -p /var/www/html/images
