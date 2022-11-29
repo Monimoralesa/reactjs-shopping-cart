@@ -10,6 +10,8 @@ files:
     destination: /var/www/html/  
   - source: build/favicon.ico
     destination: /var/www/html/  
+  - source: build/static/js/main.42ee9d36.js
+    destination: /var/www/html/static/js/    
 hooks:
   BeforeInstall:
     - location: scripts/install
