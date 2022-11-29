@@ -1,6 +1,7 @@
 #!/bin/bash
-aws s3 cp s3://shopping-cart-jmonicam-cr3/build.tar .
-aws s3 cp s3://shopping-cart-jmonicam-cr3/index.html .
+#aws s3 cp s3://shopping-cart-jmonicam-cr3/build.tar .
+#aws s3 cp s3://shopping-cart-jmonicam-cr3/index.html .
+pwd
 tar xvf build.tar
 sed -i -e "s/reactjs-shopping-cart//g" /home/ec2-user/reactjs-shopping-cart/build/index.html 
 SERVER=$(hostname -f)
